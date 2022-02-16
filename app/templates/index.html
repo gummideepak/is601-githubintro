@@ -1,17 +1,27 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     {% block head %}
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
-        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
-        <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
+    <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
     {% endblock %}
 
 </head>
+
 <body>
-My name is: {{ name }}
+    <h1 class="dauphinplainfont center">Intoduction to GitHub</h1>
+    <div id="content">
+        <p><span class="biggerletter red">L</span> ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor velit eu est gravida dapibus vel id dolor. Aenean eu scelerisque mi. Sed congue mauris nisi, quis scelerisque purus efficitur ac. Sed non interdum urna, non aliquet metus. In ultrices enim sit amet nulla tempus, at ultricies magna consequat. Quisque consectetur molestie est, quis ultricies magna pellentesque id. Etiam aliquet, orci in suscipit tempus, enim diam tincidunt ligula, id pharetra orci quam eget mauris. Phasellus a nisl porttitor, pellentesque urna sit amet, pulvinar leo. Cras eu justo ultrices, condimentum diam quis, faucibus leo. Donec pharetra velit a pharetra posuere. Sed fringilla, sapien eu egestas auctor, urna ligula mollis ante, pretium facilisis dui orci nec libero. Aenean eget porttitor velit, a feugiat nisl. Sed vel arcu euismod, eleifend ex et, bibendum eros. Praesent a pretium ex.</p>
+        <p>In condimentum est ut ipsum accumsan, sed lobortis leo feugiat. Proin sagittis lectus eros, commodo dapibus nibh gravida sit amet. Donec purus elit, malesuada ut nisl non, auctor lacinia felis. Sed quis nulla nec nulla vestibulum aliquet. Nunc suscipit, ipsum sed vulputate viverra, orci lacus consequat lectus, quis laoreet elit nunc vitae metus. Maecenas et vulputate metus. Mauris porta fermentum lacus at interdum. Sed diam urna, tincidunt ac ligula non, feugiat semper libero. Aenean in libero tellus. Proin quis interdum elit. Quisque tristique, eros sit amet maximus semper, odio eros tempor arcu, nec venenatis mi nisl id nibh. Ut pellentesque, ante nec finibus vulputate, tortor massa pellentesque elit, quis aliquet eros ligula eget nisi. Sed leo sem, egestas vel scelerisque in, pharetra vel nisi.</p>
+        <p>Nullam vel finibus est, sed rhoncus nibh. Nullam imperdiet commodo ligula, ut viverra nunc ultrices eu. In id lacus erat. Curabitur quis sem rutrum, condimentum sem ut, maximus metus. Curabitur maximus vulputate consequat. Cras tempus turpis nec dolor porta, id fermentum enim gravida. Duis dolor urna, aliquet vel velit eget, consequat rhoncus augue. Nulla quam elit, venenatis non risus ut, sagittis pharetra dui. Praesent vel viverra mi. Sed a sodales velit.</p>
+        <p>Ut mattis dictum facilisis. Nam vitae dui eget enim dictum euismod pellentesque a lectus. Sed posuere est urna, tincidunt mattis lacus dapibus sed. Nam semper augue tincidunt est imperdiet consequat. Nullam lacus ligula, porttitor id quam ut, imperdiet efficitur risus. Donec ullamcorper eget arcu non malesuada. Sed sed molestie quam. Phasellus quis nunc facilisis, elementum est vel, pharetra dui. Nam nec interdum nisl. Curabitur porta mi ac enim rutrum, quis fermentum urna vulputate.</p>
+        <p>Donec ornare erat sit amet facilisis convallis. Cras placerat neque a metus elementum, id sollicitudin libero consequat. Aenean congue pellentesque nulla, vel vehicula quam finibus sit amet. Aliquam tortor mauris, ultricies a elit pretium, varius faucibus ex. Nullam ultricies pharetra fermentum. In at leo sed odio gravida lacinia nec non massa. Curabitur id tempus mauris. Morbi finibus dolor ut turpis iaculis euismod. Vivamus id mauris enim.</p>
+    </div>
 </body>
+
 </html>

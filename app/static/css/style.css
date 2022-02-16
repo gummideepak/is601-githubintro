@@ -1,3 +1,19 @@
 body {
     font-family: Helvetica, "Helvetica Neue", sans-serif;
 }
+
+.dauphinplainfont {
+    font-family: DauphinPlain;
+}
+
+.biggerletter {
+    font-size: 100px;
+}
+
+.center {
+    padding-left: 39%;
+}
+
+.red{
+    color: red;
+}
