@@ -8,3 +8,8 @@ class IndexController(ControllerBase):
     def get():
         name = "gummi deepak"
         return render_template('index.html', name=name)
+
+    @staticmethod
+    def flayout():
+        name = "gummi deepak"
+        return render_template('flayout.html', name=name)

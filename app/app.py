@@ -11,3 +11,9 @@ app.wsgi_app = DebuggedApplication(app.wsgi_app, True)
 @app.route("/", methods=['GET'])
 def index_get():
     return IndexController.get()
+
+@app.route("/flayout", methods=['GET'])
+def flayout_get():
+    return IndexController.flayout()
+
+
